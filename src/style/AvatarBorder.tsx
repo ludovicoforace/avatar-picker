@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
-interface BorderPropTypes {
+interface PropTypes {
   listItem?: boolean 
   picking?: boolean
   selected?: boolean
   loadingAvatar?: boolean
 }
 
-export default styled.div<BorderPropTypes>`
+export default styled.div<PropTypes>`
 position: absolute;
 z-index: 4;
 width: 100%;
