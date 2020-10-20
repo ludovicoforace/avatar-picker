@@ -11,7 +11,7 @@ interface WrapperPropTypes {
   onClick: () => void
 }
 
-const Wrapper = styled.div<WrapperPropTypes>`
+const Wrapper = styled.li<WrapperPropTypes>`
 position: relative;
 z-index: 1;
 display: inline-block;

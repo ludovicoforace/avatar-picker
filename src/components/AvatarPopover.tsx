@@ -48,7 +48,9 @@ const AvatarPopover = ({
       <ArrowUp />
       <Popover ref={popoverRef}>
         <PopoverTitle>Choose your avatar</PopoverTitle>
-        {children}
+        <ul>
+          {children}
+        </ul>
       </Popover>
     </Wrapper>
   )
