@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Avatar } from '../interfaces'
+import AvatarItem from './AvatarItem'
 
 interface PropTypes {
   avatars: Avatar[]
@@ -15,7 +16,12 @@ text-align: center;
 const AvatarPicker = ({ avatars }: PropTypes) => {
   return (
     <Wrapper>
-
+      <AvatarItem 
+        onClick={() => {}}
+        source="avatar1.png"
+        label="Avatar 1"
+        picking={false}
+      />
     </Wrapper>
   )
 }
