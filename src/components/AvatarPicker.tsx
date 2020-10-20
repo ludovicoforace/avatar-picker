@@ -17,13 +17,16 @@ text-align: center;
 const AvatarPicker = ({ avatars }: PropTypes) => {
   const [picking, setPicking] = useState(false)
 
+  const onCurrentAvatarClick = () => {
+    setPicking(picking => !picking)
+  }
   const onOutsidePopoverClick = () => {
     setPicking(false)
   }
   return (
     <Wrapper>
       <AvatarItem 
-        onClick={() => {}}
+        onClick={onCurrentAvatarClick}
         source="avatar1.png"
         label="Avatar 1"
         picking={false}
@@ -31,7 +34,17 @@ const AvatarPicker = ({ avatars }: PropTypes) => {
       <AvatarPopover 
         picking={picking}
         onOutsidePopoverClick={onOutsidePopoverClick}
-      />
+      >
+        {avatars.map(avatar => (
+          <AvatarItem 
+            key={avatar.id}
+            source={avatar.src}
+            label={avatar.label}
+            onClick={() => {}}
+            listItem
+          />
+        ))}
+      </AvatarPopover>
     </Wrapper>
   )
 }
