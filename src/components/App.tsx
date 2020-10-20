@@ -1,12 +1,14 @@
 import React from 'react'
 import ErrorBoundary from './ErrorBoundary'
 import ThemeProvider from './ThemeProvider'
+import AvatarPicker from './AvatarPicker'
 import { theme } from '../style/themes'
+import avatars from '../avatars.json'
 
 const App = () => (
   <ErrorBoundary>
     <ThemeProvider theme={theme}>
-      <h1>App</h1>
+      <AvatarPicker avatars={avatars} />
     </ThemeProvider>
   </ErrorBoundary>
 )
