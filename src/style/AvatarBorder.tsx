@@ -21,7 +21,7 @@ ${props => (
   (!props.listItem && props.picking) ||
   props.selected ||
   props.loadingAvatar)
-    ? 'border-color: rgb(122, 161, 178)'
+    ? `border-color: ${props.theme.border.overlayColor}`
     : 'border-color: transparent'
 };
 ${props => props.loadingAvatar && (`

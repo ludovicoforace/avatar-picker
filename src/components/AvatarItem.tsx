@@ -23,7 +23,7 @@ ${props => !props.loadingAvatar && (`
   &:hover {
     ${AvatarBorder} {
       cursor: pointer;
-      ${!props.selected && 'border-color: rgb(155, 160, 163)'};
+      ${!props.selected && `border-color: ${props.theme.border.initialColor}`};
     }
     ${(!props.selected && props.listItem) && (`
       ${AvatarImage} {
