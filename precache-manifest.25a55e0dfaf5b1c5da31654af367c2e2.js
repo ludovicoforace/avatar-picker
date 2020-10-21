@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27116a6a07d7e593d317183df2e27287",
+    "revision": "88ced3d0d3c9ca0400e2b1782f6a8516",
     "url": "/avatar-picker/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/avatar-picker/static/js/2.672794c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "043c590de99c286a9b8e",
-    "url": "/avatar-picker/static/js/main.185eb93f.chunk.js"
+    "revision": "de0f31cbb87da63a9e6c",
+    "url": "/avatar-picker/static/js/main.e61447bb.chunk.js"
   },
   {
     "revision": "a24e5e160dbab8ee05f4",
