@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/avatar-picker/static/js/main.e61447bb.chunk.js",
-    "main.js.map": "/avatar-picker/static/js/main.e61447bb.chunk.js.map",
+    "main.js": "/avatar-picker/static/js/main.cb358b89.chunk.js",
+    "main.js.map": "/avatar-picker/static/js/main.cb358b89.chunk.js.map",
     "runtime-main.js": "/avatar-picker/static/js/runtime-main.778d2610.js",
     "runtime-main.js.map": "/avatar-picker/static/js/runtime-main.778d2610.js.map",
     "static/js/2.672794c8.chunk.js": "/avatar-picker/static/js/2.672794c8.chunk.js",
     "static/js/2.672794c8.chunk.js.map": "/avatar-picker/static/js/2.672794c8.chunk.js.map",
     "index.html": "/avatar-picker/index.html",
-    "precache-manifest.25a55e0dfaf5b1c5da31654af367c2e2.js": "/avatar-picker/precache-manifest.25a55e0dfaf5b1c5da31654af367c2e2.js",
+    "precache-manifest.824bf4359fd0557fc1aeb03ef5bda00e.js": "/avatar-picker/precache-manifest.824bf4359fd0557fc1aeb03ef5bda00e.js",
     "service-worker.js": "/avatar-picker/service-worker.js",
     "static/js/2.672794c8.chunk.js.LICENSE.txt": "/avatar-picker/static/js/2.672794c8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.778d2610.js",
     "static/js/2.672794c8.chunk.js",
-    "static/js/main.e61447bb.chunk.js"
+    "static/js/main.cb358b89.chunk.js"
   ]
 }
